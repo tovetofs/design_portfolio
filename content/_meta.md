@@ -3,7 +3,7 @@ Logo: image/umbrella_blue.png
 Tagline: Min portfolio
 Social:
     - title: Länk till mitt repo på GitHub
-      url: https://github.com/tovetofs/
+      url: https://github.com/tovetofs/design_portfolio
       icon: fa fa-github
     - title: Länk till kursens hemsida
       url: https://dbwebb.se/kurser/design-v3
