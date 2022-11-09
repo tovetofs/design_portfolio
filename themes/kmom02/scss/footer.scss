@@ -1,0 +1,23 @@
+/*
+* FOOTER CSS
+*/
+.footer {
+    vertical-align: middle;
+    background-color: $accent-alternative-color;
+    height: 100px;
+    padding: 15px;
+
+    .social {
+        font-size: 3.3rem;
+        text-align: center;
+
+        a {
+            text-decoration: none;
+        }
+    }
+    
+    .foottext {
+        text-align: center;
+    }
+}
+

@@ -1,0 +1,18 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+
+@import 'blockquotes';
+@import 'code';
+
+@import 'header';
+@import 'footer';
+@import 'general';
+
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Grape+Nuts&display=swap');
+
+@import 'mobile';

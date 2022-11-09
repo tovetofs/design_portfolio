@@ -1,0 +1,85 @@
+body {
+    background-color: $background-color;
+}
+
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    color: $font-color;
+}
+
+ol,
+ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+
+/* Placement */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 0 auto;
+    max-width: 700px;
+    margin: auto;
+}
+
+.header,
+.footer {
+    flex: 0 0 auto;
+}
+
+/* Typografy */
+
+body {
+    font-family: $font-body;
+}
+
+p,
+td,
+th,
+li,
+dd {
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    line-height: 1.4rem;
+}
+
+.main p {
+    padding-bottom: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0.3em;
+    font-family: $font-header;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.kattklass {
+    float: left;
+    padding: 2rem;
+}

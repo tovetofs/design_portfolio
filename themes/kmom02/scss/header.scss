@@ -1,0 +1,56 @@
+/*
+* HEADER CSS
+*/
+
+/* Title */
+
+@media (max-width: 767px) {
+    .title {
+        min-width: 50%;
+    }
+
+    .logo {
+        max-width: 30%;
+    }
+
+    .header {
+        padding: 2em 1em 1em;
+    }
+}
+
+.title {
+    padding-left: 20px;
+
+    p {
+        font-style: italic;
+    }
+}
+
+
+/* Header */
+
+.header,
+.site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    background-color: $accent-color;
+    padding: 2em 2em 1em 3em;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.nav {
+    font-size: 1.6rem;
+    font-family: $font-header;
+}
+
+
+.logo img {
+    max-width: 100px;
+    opacity: 60%;
+}
