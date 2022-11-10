@@ -58,8 +58,15 @@
         text-align: center;
         cursor: pointer;
     }
+
     .main {
         padding: 1rem;
-        margin: 0px;
+        margin: 0;
+    }
+}
+
+@media (min-width: 64em) {
+    html {
+        font-size: 112.5%;
     }
 }

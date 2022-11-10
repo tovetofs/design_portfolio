@@ -387,7 +387,7 @@ pre code {
 }
 
 .nav {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   font-family: "Architects Daughter", sans-serif;
 }
 
@@ -442,15 +442,20 @@ body {
   height: 100%;
 }
 
+html {
+  font-size: 100%;
+}
+
 /* Placement */
 body {
   display: flex;
   flex-direction: column;
+  font-family: sans-serif;
 }
 
 .main {
   flex: 1 0 auto;
-  max-width: 700px;
+  max-width: 50rem;
   margin: auto;
 }
 
@@ -460,10 +465,6 @@ body {
 }
 
 /* Typografy */
-body {
-  font-family: sans-serif;
-}
-
 p,
 td,
 th,
@@ -473,6 +474,7 @@ dd {
   overflow-wrap: break-word;
   word-wrap: break-word;
   line-height: 1.4rem;
+  font-size: 1em;
 }
 
 .main p {
@@ -6668,6 +6670,11 @@ readers do not read off random characters that represent icons */
   }
   .main {
     padding: 1rem;
-    margin: 0px;
+    margin: 0;
+  }
+}
+@media (min-width: 64em) {
+  html {
+    font-size: 112.5%;
   }
 }
