@@ -78,12 +78,13 @@ h6 {
     font-family: $font-header;
 }
 
-img {
-    max-width: 100%;
-}
-
 
 .kattklass {
     float: left;
     padding: 2rem;
+    max-width: 100%;
+}
+
+.bildklass {
+    max-width: 100%;
 }

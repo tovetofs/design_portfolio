@@ -29,10 +29,10 @@
 
 /* Header */
 
-.header,
+// .header,
 .site-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
 }
 
 .header {
@@ -42,11 +42,25 @@
     a {
         text-decoration: none;
     }
+    a:hover {
+        color: $font-alternative-color;
+    }
 }
 
 .nav {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-family: $font-header;
+    display: inline-block;
+    width: 100%;
+}
+
+.nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.nav li {
+    display: inline;
 }
 
 
