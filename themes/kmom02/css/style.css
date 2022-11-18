@@ -555,7 +555,7 @@ h6 {
 .css {
   grid-column: 3/4;
   grid-row: 2/3;
-  background-color: lavender;
+  background-color: rgb(230, 230, 250);
 }
 
 .html {
@@ -573,7 +573,7 @@ h6 {
 .java {
   grid-column: 2/4;
   grid-row: 3/4;
-  background-color: lavenderblush;
+  background-color: rgb(255, 240, 245);
 }
 
 .git {
@@ -608,7 +608,7 @@ h6 {
 }
 
 .tech-nav {
-  padding: 1rem 1rem 1rem;
+  padding: 1rem;
 }
 
 .tech-nav ul {
@@ -625,7 +625,7 @@ h6 {
 }
 
 .tech-nav li a:hover {
-  background-color: lightgoldenrodyellow;
+  background-color: rgb(250, 250, 210);
 }
 
 /*!
