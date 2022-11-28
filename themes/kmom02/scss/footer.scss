@@ -3,9 +3,10 @@
 */
 .footer {
     vertical-align: middle;
-    background-color: $accent-alternative-color;
+    background-color: $footer-background;
     height: 100px;
     padding: 15px;
+    color: $footer-font-color;
 
     .social {
         font-size: 3.3rem;
@@ -14,6 +15,7 @@
 
     .social a {
         text-decoration: none;
+        color: $footer-font-color;
     }
     
     .foottext {

@@ -7,13 +7,12 @@ body {
     border: 0 none;
     margin: 0;
     padding: 0;
-    color: $font-color;
 }
 
-ol,
-ul {
-    padding-left: 1.5em;
-}
+// ol,
+// ul {
+//     padding-left: 1.5em;
+// }
 
 .hidden {
     display: none !important;
@@ -22,10 +21,16 @@ ul {
 html,
 body {
     height: 100%;
+    color: $font-color;
 }
 
 html {
     font-size: 100%;
+}
+
+a {
+    color: $font-color;
+    text-decoration: none;
 }
 
 
@@ -41,7 +46,11 @@ body {
     flex: 1 0 auto;
     // max-width: 700px;
     max-width: 50rem;
-    margin: auto;
+    margin: 2rem auto;
+    background-color: $main-background;
+    border: 2px dashed $font-color;
+    border-radius: 155px 15px 155px 15px/15px 155px 15px 155px;
+    padding: 2rem;
 }
 
 .header,
@@ -57,7 +66,7 @@ td,
 th,
 li,
 dd {
-    text-align: justify;
+    text-align: left;
     overflow-wrap: break-word;
     word-wrap: break-word;
     line-height: 1.4rem;
@@ -81,10 +90,16 @@ h6 {
 
 .kattklass {
     float: left;
-    padding: 2rem;
+    padding-right: 2rem;
     max-width: 100%;
+    filter: $filter-image;
 }
 
 .bildklass {
+    max-width: 100%;
+    filter: $filter-image;
+}
+
+.colorclass {
     max-width: 100%;
 }

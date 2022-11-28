@@ -36,15 +36,18 @@
 }
 
 .header {
-    background-color: $accent-color;
+    background-color: $header-background;
     padding: 2em 2em 1em 3em;
+    color: $font-color;
 
     a {
         text-decoration: none;
+        color: $header-font-color;
     }
     
     a:hover {
-        color: $font-alternative-color;
+        color: $hover-font;
+        background-color: $header-background;
     }
 }
 
@@ -62,6 +65,7 @@
 
 .nav li {
     display: inline;
+    padding: 1em;
 }
 
 

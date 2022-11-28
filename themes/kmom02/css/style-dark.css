@@ -379,14 +379,14 @@ pre code {
 }
 
 .header {
-  background-color: rgb(183, 224, 238);
+  background-color: rgb(30, 64, 76);
   padding: 2em 2em 1em 3em;
 }
 .header a {
   text-decoration: none;
 }
 .header a:hover {
-  color: #EDCED6;
+  color: rgb(255, 149, 0);
 }
 
 .nav {
@@ -415,7 +415,7 @@ pre code {
 */
 .footer {
   vertical-align: middle;
-  background-color: #A19E74;
+  background-color: rgb(30, 64, 76);
   height: 100px;
   padding: 15px;
 }
@@ -431,7 +431,7 @@ pre code {
 }
 
 body {
-  background-color: #fff;
+  background-color: rgb(85, 121, 134);
 }
 
 * {
@@ -439,7 +439,7 @@ body {
   border: 0 none;
   margin: 0;
   padding: 0;
-  color: #444;
+  color: #fff;
 }
 
 ol,
@@ -621,7 +621,7 @@ h6 {
   text-decoration: none;
   padding: 0.7rem;
   font-family: "Architects Daughter", sans-serif;
-  color: #EDCED6;
+  color: rgb(255, 149, 0);
   font-size: 2rem;
 }
 
@@ -6757,7 +6757,7 @@ readers do not read off random characters that represent icons */
 
 .nav a,
 .nav-toggle {
-  color: #444;
+  color: #fff;
 }
 
 .nav-toggle {
