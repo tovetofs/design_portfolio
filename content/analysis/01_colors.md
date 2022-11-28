@@ -74,7 +74,7 @@ Webbplatsen domineras av olika blåa nyanser som harmonierar väl med bilderna p
 
 ### Lofsdalen
 
-Såväl färgsättning som typsnitt är djärva och kraftfulla. Den blåa och den röda färgen leder associationerna till käpparna i slalombacken. Här finns det säkert rejäla backar.
+Såväl färgsättning som typsnitt är djärva och kraftfulla. Den blåa och den röda färgen leder associationerna till käpparna i slalombacken och ger ett sportigt intryck. Här finns det säkert rejäla backar.
 
 ### Allmänt intryck
 
