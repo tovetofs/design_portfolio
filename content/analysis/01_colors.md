@@ -76,7 +76,7 @@ Webbplatsen domineras av olika blåa nyanser som harmonierar väl med bilderna p
 
 Såväl färgsättning som typsnitt är djärva och kraftfulla. Den blåa och den röda färgen leder associationerna till käpparna i slalombacken. Här finns det säkert rejäla backar.
 
-### Slutsatser
+### Allmänt intryck
 
 Alla tre webbplatserna jag har tittat på har ett tydligt färgschema och verkar ha använt de principer för färgsättning som vi har läst om. Accentfärger har använts för att lyfta fram 'boka'-knappar och annat viktigt, men accentfärgerna har använts olika mycket på de olika webbplatserna. På Lofsdalens webbplats används rikligt med rött, exempelvis är menyn helt röd när man klickar fram den. På Fjätervålens webbplats har man en mer sparsmakad färgsättning och använder sin röda accentfärg väldigt diskret, endast när man håller musen över en länk. På samtliga webbplatser har samma färgsättning använts återkommande på olika delar av webbplatsen. Man har använt färger och typsnitt som går väl ihop och leder associationerna i samma riktning.  Både typsnitt och färgval tror jag avspeglar den profil de strävar efter.
 
