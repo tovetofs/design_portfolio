@@ -11,11 +11,11 @@ Uppgiften handlar om att utvärdera färgsättning och typografi på några webb
 
 ## Urval
 
-För den här rapporten valdes några webbplatser med samma inriktning - svenska skiddestinationer. Webbplatserna hittades via google, sökning på 'skidresa Sverige', 'skidresa Härjedalen' och 'skidresa Dalarna'. Därefter valdes tre webbplatser med tydligt färgtema och som representerade en faktisk destination. De webbplatser som valdes var: Funäsfjällen (funasfjallen.se), Lofsdalen (lofsdalen.com) och Fjätervålen (fjatervalen.se).
+För den här rapporten valdes några webbplatser med samma inriktning - svenska skiddestinationer. Webbplatserna hittades via google, sökning på 'skidresa Sverige', 'skidresa Härjedalen' och 'skidresa Dalarna'. Därefter valdes tre godtyckliga webbplatser med tydligt färgtema. Enbart webbplatser som representerade en faktisk destination valdes. De webbplatser som valdes var: Funäsfjällen (funasfjallen.se), Lofsdalen (lofsdalen.com) och Fjätervålen (fjatervalen.se).
 
 ## Metod
 
-De tre webbplatserna har analyserats med hänseende till färgval, typografi och allmän design/allmänt intryck. För att hitta hex-koderna för de färger som använts har färgplockar-verktyget ColorZilla använts. Typsnitt har identifierats med hjälp av utvecklar-verktyget i Firefox och 'fontsquirrel' (fontsquirrel.com).
+De tre webbplatserna har analyserats med hänseende till färgval, typografi och allmän design/allmänt intryck. För att hitta hex-koderna för de färger som använts har färgplockar-verktyget ColorZilla använts. Typsnitt har identifierats med hjälp av utvecklar-verktyget i Firefox och för att hitta typsnitt i loggor har 'fontsquirrel' (fontsquirrel.com) använts.
 
 ## Resultat
 
@@ -32,7 +32,7 @@ De tre webbplatserna har analyserats med hänseende till färgval, typografi och
         </tr>
 </table>
 
-På Funäsfjällens webbplats är färgschemat komplementärt. Färgsättningen domineras av ett par gröna nyanser och som accentfärg används en klar orange nyans. Till de mest iögonenfallande rubrikerna har man använt 'Teniers-Regular' och till huvudrubriker till artiklar används 'SerifaStd-Light', båda är typsnitt med seriffer.  Till mindre rubriker, navbar och brödtext har man använt ett sans-serif typsnitt, 'Scout Lt'. Jag tycker att man här har lyckats få till färgsättning och typografi som väl motsvarar deras profil. 
+På Funäsfjällens webbplats är färgschemat komplementärt. Färgsättningen domineras av ett par gröna nyanser och som accentfärg används en klar orange nyans. Till de mest iögonenfallande rubrikerna har man använt 'Teniers-Regular' och till huvudrubriker till artiklar används 'SerifaStd-Light', båda är typsnitt med seriffer. Till mindre rubriker, navbar och brödtext har man använt ett sans-serif typsnitt, 'Scout Lt'. Jag tycker att man här har lyckats få till färgsättning och typografi som väl motsvarar deras profil. 
 
 ![Fjätervålen](%base_url%/image/fjatervalen.png){.colorclass}
 
@@ -61,7 +61,7 @@ Här är färgtemat huvudsakligen monokromatiskt med olika nyanser av blått. So
         </tr>
 </table>
 
-Färgschemat här är triadiskt med mörkblått som dominerar, kombinerat med en mörkare grön och röd nyans. Loggan är ett litet rött hjärta. De dominerande typsnitten är 'Bourgeois boldcond' för rubriker samt navbar och 'Roboto' för brödtext, alla sans-serif. Jag anser att webbplatsens färgval och typografi väl motsvarar deras profil. 
+Färgschemat här är triadiskt med mörkblått som dominerar, kombinerat med en mörkare grön och röd nyans. Loggan är ett litet rött hjärta. Även här är rött accentfärg. Typsnitten som används är 'Bourgeois boldcond' för rubriker samt navbar och 'Roboto' för brödtext och footer, båda är sans-serif. Till loggan är det ett serif typsnitt, troligtvis 'Copper Penny DTP'. Jag anser att webbplatsens färgval och typografi väl motsvarar deras profil. 
 
 ## Analys
 ### Funäsfjällen
@@ -70,15 +70,15 @@ Här dominerar de jordnära färgerna - gröna nyanser och orange på krämfärg
 
 ### Fjätervålen
 
-Webbplatsen domineras av olika blåa nyanser som harmonierar väl med bilderna på snö och skidbackar. Färgvalet signalerar vinter, is och kyla och de tunna typsnitten passar fint ihop med loggan som är en snöflinga. Här är det säkert gott om snö, ett klassiskt fjäll helt enkelt.
+Webbplatsen domineras av olika blåa nyanser som harmonierar väl med bilderna på snö och skidbackar. Färgval och design är sparsmakade. Färgvalet signalerar vinter, is och kyla och de tunna typsnitten passar fint ihop med loggan som är en snöflinga. Här är det säkert gott om snö, ett klassiskt fjäll helt enkelt.
 
 ### Lofsdalen
 
-Såväl färgsättning som typsnitt är tydliga och kraftfulla. Den blåa och den röda färgen leder associationerna till käpparna i slalombacken. Här finns det säkert rejäla backar.
+Såväl färgsättning som typsnitt är djärva och kraftfulla. Den blåa och den röda färgen leder associationerna till käpparna i slalombacken. Här finns det säkert rejäla backar.
 
 ### Slutsatser
 
-Alla tre webbplatserna jag har tittat på har ett tydligt färgschema och verkar ha använt de principer för färgsättning som vi har läst om. Accentfärger har använts för att lyfta fram 'boka'-knappar och annat viktigt. Samma färger har använts återkommande på olika delar av webbplatsen. Man har använt färger och typsnitt som leder associationerna i samma riktning.  Både typsnitt och färgval tror jag avspeglar den profil de strävar efter. 
+Alla tre webbplatserna jag har tittat på har ett tydligt färgschema och verkar ha använt de principer för färgsättning som vi har läst om. Accentfärger har använts för att lyfta fram 'boka'-knappar och annat viktigt, men accentfärgerna har använts olika mycket på de olika webbplatserna. På Lofsdalens webbplats används rikligt med rött, exempelvis är menyn helt röd när man klickar fram den. På Fjätervålens webbplats har man en mer sparsmakad färgsättning och använder sin röda accentfärg väldigt diskret, endast när man håller musen över en länk. På samtliga webbplatser har samma färgsättning använts återkommande på olika delar av webbplatsen. Man har använt färger och typsnitt som går väl ihop och leder associationerna i samma riktning.  Både typsnitt och färgval tror jag avspeglar den profil de strävar efter.
 
 ## Referenser
 
