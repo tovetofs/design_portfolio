@@ -1,0 +1,32 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="kmom2" role="main">
+        <div class="kmom">
+            {{ content }}
+        </div>
+        <div class="kmom-bar">
+            <nav class="kmom-nav">
+
+                <ul>
+                    {% for page in pages('analysis') if page.title and not page.hidden %}
+                        {# {{ dump(page.meta) }} - För testning #}
+                        <li class="kmom-list">
+                            <a href="{{ page.url }}">
+            
+                                    {{ page.title }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+
+            </nav>
+        </div>
+    </div>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>
