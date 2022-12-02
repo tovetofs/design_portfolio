@@ -1,0 +1,142 @@
+.gallery-big {
+    flex: 1 0 auto;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.gallery-land {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 60px auto;
+    gap: 20px 20px;
+}
+
+.gallery-land h1 {
+    grid-column: 1 / 4;
+    justify-self: center;
+}
+
+
+.polar {
+    border: 1px solid #e7e3da;
+    // border-radius: 155px 15px 155px 15px/15px 155px 15px 155px;
+    border-radius: 5px 5px 75px 5px/5px 75px 5px 75px;
+    background-color: rgb(253, 251, 250);
+    width: 330px;
+    height: 374px;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    box-shadow: 8px 8px 5px 0 rgba(0, 0, 0, 0.14);
+}
+
+.polar img {
+    border-top: 1px solid #444;
+    border-left: 1px solid #444;
+}
+
+.polar-text {
+    font-family: $font-header;
+    color: rgb(69, 90, 210);
+    text-align: center;
+    padding-top: 2px;
+    font-size: 1.5em;
+}
+
+.photo1 {
+    transform: rotate(-2deg);
+}
+
+.photo2 {
+    position: relative;
+    overflow: hidden;
+
+    .polar-text {
+        transform: skewX(-10deg);
+    }
+}
+
+.photo3 {
+    transform: rotate(4deg);
+
+    .polar-text::first-letter {
+        font-size: 1.6em;
+    }
+
+    .polar-text {
+        padding-top: 0;
+    }
+}
+
+.photo4 {
+    .polar-text {
+        transform: rotate(4deg);
+    }
+}
+
+.photo5 {
+    transform: rotate(-5deg);
+
+    .polar-text::first-letter {
+        font-size: 1.6em;
+    }
+
+    .polar-text {
+        padding-top: 0;
+    }
+}
+
+.photo7 {
+    transform: rotate(6deg);
+}
+
+.photo8 {
+    .polar-text {
+        transform: skewX(10deg);
+    }
+}
+
+.photo9 {
+    transform: rotate(1deg);
+}
+
+/* Video */
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video {
+    max-width: 1000px;
+    margin-top: 2rem;
+    padding: 1.1rem;
+    background-color: rgb(253, 251, 250);
+    border-radius: 5px 5px 75px 5px/5px 75px 5px 75px;
+    box-shadow: 8px 8px 5px 0 rgba(0, 0, 0, 0.14);
+}
+
+.videotext {
+    font-family: $font-header;
+    color: rgb(69, 90, 210);
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+
+.videofram {
+    max-width: 100%;
+}

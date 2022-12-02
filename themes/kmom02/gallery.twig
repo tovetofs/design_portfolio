@@ -1,0 +1,26 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="gallery-big" role="main">
+        <div class="gallery-land">
+            {{ content }}
+        </div>
+
+
+        <div class="video">
+
+            <div class="embed-container">
+                <iframe class="videoframe" width="560" height="315" src="https://www.youtube.com/embed/KliYgobIbmk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="videotext">The cats</div>
+
+        </div>
+    </div>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>
