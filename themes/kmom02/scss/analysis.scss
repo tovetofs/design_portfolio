@@ -184,3 +184,30 @@
     color: $side-nav-hover-font;
     background-color: $side-nav-hover-back;
 }
+
+/*
+* LOAD
+*/
+
+.resultsheet {
+    width: 800px;
+    height: 500px;
+    padding-bottom: 1em;
+}
+
+.loadtable {
+    border-collapse: collapse;
+    font-family: 'Courier New', Courier, monospace;
+
+    th {
+        font-weight: bold;
+    }
+
+    td {
+        border: 10px solid white;
+    }
+}
+
+.colorclass {
+    padding-top: 2em;
+}
