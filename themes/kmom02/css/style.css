@@ -379,14 +379,17 @@ pre code {
 }
 
 .header {
-  background-color: rgb(183, 224, 238);
+  background-color: #8bc1b5;
   padding: 2em 2em 1em 3em;
+  color: #444;
 }
 .header a {
   text-decoration: none;
+  color: #365f56;
 }
 .header a:hover {
-  color: #EDCED6;
+  color: #fff;
+  background-color: #8bc1b5;
 }
 
 .nav {
@@ -403,6 +406,7 @@ pre code {
 
 .nav li {
   display: inline;
+  padding: 1em;
 }
 
 .logo img {
@@ -415,9 +419,10 @@ pre code {
 */
 .footer {
   vertical-align: middle;
-  background-color: #A19E74;
+  background-color: #f0ece4;
   height: 100px;
   padding: 15px;
+  color: #78517a;
 }
 .footer .social {
   font-size: 3.3rem;
@@ -425,13 +430,14 @@ pre code {
 }
 .footer .social a {
   text-decoration: none;
+  color: #78517a;
 }
 .footer .foottext {
   text-align: center;
 }
 
 body {
-  background-color: #fff;
+  background-color: #f0ece4;
 }
 
 * {
@@ -439,12 +445,6 @@ body {
   border: 0 none;
   margin: 0;
   padding: 0;
-  color: #444;
-}
-
-ol,
-ul {
-  padding-left: 1.5em;
 }
 
 .hidden {
@@ -454,10 +454,16 @@ ul {
 html,
 body {
   height: 100%;
+  color: #444;
 }
 
 html {
   font-size: 100%;
+}
+
+a {
+  color: #444;
+  text-decoration: none;
 }
 
 /* Placement */
@@ -470,7 +476,11 @@ body {
 .main {
   flex: 1 0 auto;
   max-width: 50rem;
-  margin: auto;
+  margin: 2rem auto;
+  background-color: #fff;
+  border: 2px dashed #444;
+  border-radius: 155px 15px 155px 15px/15px 155px 15px 155px;
+  padding: 2rem;
 }
 
 .header,
@@ -484,7 +494,7 @@ td,
 th,
 li,
 dd {
-  text-align: justify;
+  text-align: left;
   overflow-wrap: break-word;
   word-wrap: break-word;
   line-height: 1.4rem;
@@ -507,11 +517,17 @@ h6 {
 
 .kattklass {
   float: left;
-  padding: 2rem;
+  padding-right: 2rem;
   max-width: 100%;
+  filter: none;
 }
 
 .bildklass {
+  max-width: 100%;
+  filter: none;
+}
+
+.colorclass {
   max-width: 100%;
 }
 
@@ -539,6 +555,9 @@ h6 {
   padding: 0;
   overflow: hidden;
   position: relative;
+  background-color: #fff;
+  border: 2px dashed #444;
+  border-radius: 255px 15px 255px 15px/15px 255px 15px 255px;
 }
 .tech-box h3 {
   font-size: 3rem;
@@ -556,43 +575,37 @@ h6 {
 .css {
   grid-column: 3/4;
   grid-row: 2/3;
-  background-color: rgb(230, 230, 250);
+  transform: rotate(4deg);
 }
 
 .html {
   grid-column: 1/3;
   grid-row: 2/3;
-  background-color: rgb(255, 249, 220);
 }
 
 .php {
   grid-column: 1/2;
   grid-row: 3/5;
-  background-color: rgb(223, 245, 223);
 }
 
 .java {
   grid-column: 2/4;
   grid-row: 3/4;
-  background-color: rgb(255, 240, 245);
 }
 
 .git {
   grid-column: 2/3;
   grid-row: 4/5;
-  background-color: rgb(226, 253, 248);
 }
 
 .sql {
   grid-column: 1/3;
   grid-row: 5/6;
-  background-color: rgb(230, 229, 229);
 }
 
 .python {
   grid-column: 3/4;
   grid-row: 4/6;
-  background-color: rgb(222, 239, 251);
 }
 
 /*
@@ -621,12 +634,252 @@ h6 {
   text-decoration: none;
   padding: 0.7rem;
   font-family: "Architects Daughter", sans-serif;
-  color: #EDCED6;
+  color: #49756c;
   font-size: 2rem;
 }
 
 .tech-nav li a:hover {
-  background-color: rgb(250, 250, 210);
+  background-color: #78517a;
+  color: #fff;
+}
+
+/*
+* ANALYSIS
+*/
+.ana {
+  margin: 5rem;
+  margin-top: 0.5rem;
+  flex: 1 0 auto;
+}
+
+.ana-land {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 70px 200px;
+  gap: 1em 1em;
+}
+
+.ana-land h1 {
+  grid-column: 1/4;
+  justify-self: center;
+}
+
+.analysis {
+  position: relative;
+  padding: 1rem;
+  background-color: #fff;
+  border: 2px dashed #444;
+  border-radius: 255px 15px 255px 15px/15px 255px 15px 255px;
+  text-align: center;
+}
+
+.anaicon {
+  font-size: 3rem;
+}
+
+.kmom04 {
+  transform: rotate(2deg);
+  grid-column: 1/2;
+  position: relative;
+}
+
+.kmom05 {
+  grid-column: 2/3;
+  position: relative;
+}
+
+.kmom06 {
+  transform: rotate(-5deg);
+  grid-column: 3/4;
+  position: relative;
+}
+
+.linkspanner04 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.linkspanner05 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.linkspanner06 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+/*
+* KMOM
+*/
+.kmom2 {
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+  display: grid;
+  grid-template-columns: 70% auto;
+  gap: 1em;
+  flex: 1 0 auto;
+}
+
+.kmom p {
+  padding-bottom: 1rem;
+}
+
+.kmom {
+  background-color: #fff;
+  border: 2px dashed #444;
+  border-radius: 155px 15px 155px 15px/15px 155px 15px 155px;
+  margin: 2rem 2rem auto;
+  padding: 0 2rem;
+}
+
+.colors {
+  border: 10px solid #fff;
+  border-collapse: collapse;
+}
+.colors td {
+  width: 100px;
+  height: 100px;
+  border: 5px solid #fff;
+}
+
+.cella1 {
+  background-color: #003323;
+}
+
+.cella2 {
+  background-color: #427e65;
+}
+
+.cella3 {
+  background-color: #007c88;
+}
+
+.cella4 {
+  background-color: #ec6608;
+}
+
+.cellb1 {
+  background-color: #1c355d;
+}
+
+.cellb2 {
+  background-color: #b11c01;
+}
+
+.cellb3 {
+  background-color: #163824;
+}
+
+.cellc1 {
+  background-color: #358ecd;
+}
+
+.cellc2 {
+  background-color: #073c64;
+}
+
+.cellc3 {
+  background-color: #abbebe;
+}
+
+.cellc4 {
+  background-color: #c00c0e;
+}
+
+/*
+* NAV KMOM
+*/
+.kmom-nav {
+  padding-top: 3rem;
+}
+
+.kmom-nav ul {
+  list-style-type: none;
+}
+
+.kmom-nav li a {
+  display: block;
+  text-decoration: none;
+  padding: 0.7rem;
+  font-family: "Architects Daughter", sans-serif;
+  color: #78517a;
+  font-size: 2rem;
+}
+
+.kmom-nav li a:hover {
+  color: #fff;
+  background-color: #78517a;
+}
+
+.gallery-big {
+  flex: 1 0 auto;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.gallery-land {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 60px auto;
+  gap: 20px 20px;
+}
+
+.gallery-land h1 {
+  grid-column: 1/4;
+  justify-self: center;
+}
+
+.polar {
+  border: 1px solid #e7e3da;
+  border-radius: 0 5px 75px 5px/15px 75px 5px 75px;
+  background-color: #fff;
+  width: 300px;
+  height: 340px;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  box-shadow: 8px 8px 5px 0 rgba(0, 0, 0, 0.14);
+}
+
+.polar-text {
+  font-family: "Architects Daughter", sans-serif;
+  color: rgb(83, 83, 207);
+  text-align: center;
+  padding-top: 8px;
+  font-size: 1.4em;
+}
+
+.photo1 {
+  transform: rotate(-2deg);
+}
+
+.photo3 {
+  transform: rotate(4deg);
+}
+
+.photo5 {
+  transform: rotate(-3deg);
+}
+
+.photo7 {
+  transform: rotate(3deg);
+}
+
+.photo9 {
+  transform: rotate(1deg);
 }
 
 /*!
@@ -6755,11 +7008,6 @@ readers do not read off random characters that represent icons */
   padding: 0 1em;
 }
 
-.nav a,
-.nav-toggle {
-  color: #444;
-}
-
 .nav-toggle {
   display: none;
 }
@@ -6792,8 +7040,8 @@ readers do not read off random characters that represent icons */
     cursor: pointer;
   }
   .main {
-    padding: 1rem;
-    margin: 0;
+    padding: 0.5rem;
+    margin: 1rem;
   }
 }
 @media (min-width: 64em) {
@@ -6847,5 +7095,61 @@ readers do not read off random characters that represent icons */
   .tech2 {
     grid-template-columns: auto;
     margin: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  .kmom-bar {
+    display: none;
+  }
+  .kmom2 {
+    grid-template-columns: auto;
+    margin: 1rem;
+  }
+  .kmom {
+    margin: 0;
+  }
+}
+@media (max-width: 700px) {
+  .ana {
+    margin: 2rem;
+  }
+  .ana-land {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    gap: 0;
+    row-gap: 1em;
+  }
+  .ana-land h1 {
+    grid-column: 1/2;
+    justify-self: center;
+  }
+  .analysis {
+    grid-column: 1/2;
+  }
+  .kmom04 {
+    grid-row: 2/3;
+  }
+  .kmom05 {
+    grid-row: 3/4;
+  }
+  .kmom06 {
+    grid-row: 4/5;
+  }
+}
+@media (max-width: 960px) {
+  .gallery-land {
+    grid-template-columns: 1fr 1fr;
+  }
+  .gallery-land h1 {
+    grid-column: 1/3;
+  }
+}
+@media (max-width: 640px) {
+  .gallery-land {
+    grid-template-columns: 1fr;
+  }
+  .gallery-land h1 {
+    grid-column: 1/2;
   }
 }
