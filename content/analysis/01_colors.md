@@ -1,6 +1,6 @@
 ---
-Title: Kmom04
-Description: Kmom04
+Title: Färgsättning
+Description: Kmom04 - Webbplatsers färgsättning
 Template: kmom
 ---
 
