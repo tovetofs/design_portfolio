@@ -27,6 +27,8 @@ Färgsättning av webbplatser till några svenska skiddestinationer.
 <span class="linkspanner05">
 # Kmom05
 
+Laddningstid och användbarhet för några webbplatser kopplade till svenska skiddestinationer.
+
 </span>
 </a>
 </div>
