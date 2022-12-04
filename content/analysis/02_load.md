@@ -114,7 +114,7 @@ Förbättringsförslag: Undvika renderings-blockerande resurser och förbättra 
 
 <iframe class="resultsheet" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRrKvNIYxD5N8_-RxtQp4VXxWazXzsIdX_5jYZ_300FGvOzjn36u5jtDg6twCMV4jQr5WhOzFHlg1rA/pubhtml?gid=233347740&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
-Förbättringsförslag: Reducera javascript som ej används.
+Förbättringsförslag: Reducera javascript som ej används och minska antalet inbäddade video-klipp.
 
 ## Analys
 
@@ -123,6 +123,8 @@ Alla tre webbplatser verkar ha problem med Cumulative Layout Shift (CLS) och det
 Förbättringsförslagen överlappar en hel del. Stor förbättringspotential finns för bildhantering, särskilt på Fulufjällens webbplats. Att presentera bilder i rätt storlek och kvalitet samt använda sig av nyare bild-format såsom AVIF och WebP skulle kunna förbättra laddningstiderna.
 
 Att reducera oanvänd JavaScript är också ett viktigt förslag och ta bort renderings-blockerande resurser såsom JavaScript och CSS som inte är omedelbart nödvändig. Här verkar Lofsdalens webbplats kunna rensa rejält i sina JavaScript-filer och Fjätervålen bland CSS. Förbättra serverns responstid föreslås för Funäsfjällen och Fjätervålen.
+
+Lofsdalen har några sidor som är väldigt stora. Det verkar som att det är flera inbäddade video-klipp som drar upp storleken och det känns ganska onödigt. Man kanske kunde länka till filmerna på något smartare sätt.
 
 Avseende användbarhet finns en del som borde vara enkelt att åtgärda, exempelvis att använda alt-attribut till bilder, åtgärda dålig kontrast-ratio och att ge länkar en beskrivande text. 
 
