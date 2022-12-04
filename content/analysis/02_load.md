@@ -15,7 +15,7 @@ För den här rapporten valdes samma webbplatser som förra veckan, nämligen tr
 
 ## Metod
 
-För varje webbplats har tre stycken sidor undersökts, förstasidan, en sida som nås med länk från förstasidan och en som nås via länk från sida två. Alla sidor har testats på PageSpeed Insights. Samtliga sidor har också besökts med webbläsaren Chrome och via dev-tools har laddningstid, antal resurser som laddats och sidans totala storlek noterats. För varje sida har mätningen gjorts tre gånger och medelvärdena presenteras. Mätningarna gjordes 1 dec 2023.
+För varje webbplats har tre sidor undersökts, förstasidan, en sida som nås med länk från förstasidan och en som nås via länk från sida två. Alla sidor har testats på PageSpeed Insights. Samtliga sidor har också besökts med webbläsaren Chrome och via dev-tools har laddningstid, antal resurser som laddats och sidans totala storlek noterats. För varje sida har mätningen gjorts tre gånger och medelvärdena presenteras. Mätningarna gjordes 1 dec 2022.
 
 ## Resultat
 
@@ -47,8 +47,9 @@ För varje webbplats har tre stycken sidor undersökts, förstasidan, en sida so
     </tr>
 </table>
 
-
-<iframe class="resultsheet" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRrKvNIYxD5N8_-RxtQp4VXxWazXzsIdX_5jYZ_300FGvOzjn36u5jtDg6twCMV4jQr5WhOzFHlg1rA/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<div class="framesheet">
+    <iframe class="resultsheet" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRrKvNIYxD5N8_-RxtQp4VXxWazXzsIdX_5jYZ_300FGvOzjn36u5jtDg6twCMV4jQr5WhOzFHlg1rA/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+</div>
 
 Förbättringsförslag: Använda bilder i rätt storlek och rätt format.
 
@@ -80,7 +81,9 @@ Förbättringsförslag: Använda bilder i rätt storlek och rätt format.
     </tr>
 </table>
 
-<iframe class="resultsheet" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRrKvNIYxD5N8_-RxtQp4VXxWazXzsIdX_5jYZ_300FGvOzjn36u5jtDg6twCMV4jQr5WhOzFHlg1rA/pubhtml?gid=1688105049&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<div class="framesheet">
+    <iframe class="resultsheet" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRrKvNIYxD5N8_-RxtQp4VXxWazXzsIdX_5jYZ_300FGvOzjn36u5jtDg6twCMV4jQr5WhOzFHlg1rA/pubhtml?gid=1688105049&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+</div>
 
 Förbättringsförslag: Undvika renderings-blockerande resurser och förbättra serverns responstid.
 
@@ -112,7 +115,9 @@ Förbättringsförslag: Undvika renderings-blockerande resurser och förbättra 
     </tr>
 </table>
 
-<iframe class="resultsheet" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRrKvNIYxD5N8_-RxtQp4VXxWazXzsIdX_5jYZ_300FGvOzjn36u5jtDg6twCMV4jQr5WhOzFHlg1rA/pubhtml?gid=233347740&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<div class="framesheet">
+    <iframe class="resultsheet" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRrKvNIYxD5N8_-RxtQp4VXxWazXzsIdX_5jYZ_300FGvOzjn36u5jtDg6twCMV4jQr5WhOzFHlg1rA/pubhtml?gid=233347740&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+</div>
 
 Förbättringsförslag: Reducera javascript som ej används och minska antalet inbäddade video-klipp.
 
