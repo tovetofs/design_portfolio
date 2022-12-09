@@ -39,6 +39,8 @@ Laddningstid och användbarhet för några webbplatser kopplade till svenska ski
 <span class="linkspanner06">
 # Kmom06
 
+Utvärdering av hur designprinciper implementerats på några personsidor.
+
 </span>
 </a>
 </div>

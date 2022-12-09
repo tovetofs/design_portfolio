@@ -19,7 +19,7 @@ För varje webbplats har tre sidor undersökts, förstasidan, en sida som nås m
 
 ## Resultat
 
-![Funäsfjällen](%base_url%/image/funas.jpeg){.colorclass}
+<img src="%base_url%/image/funas.jpeg?w=800" srcset="%base_url%/image/funas.jpeg?w=800, %base_url%/image/funas.jpeg?w=1600 2x" alt="Funäsfjällen" class="colorclass">
 
 ### Funäsfjällen
 
@@ -53,7 +53,7 @@ För varje webbplats har tre sidor undersökts, förstasidan, en sida som nås m
 
 Förbättringsförslag: Använda bilder i rätt storlek och rätt format.
 
-![Fjätervålen](%base_url%/image/fjater.jpeg){.colorclass}
+<img src="%base_url%/image/fjater.jpeg?w=800" srcset="%base_url%/image/fjater.jpeg?w=800, %base_url%/image/fjater.jpeg?w=1600 2x" alt="Fjätervålen" class="colorclass">
 
 ### Fjätervålen
 
@@ -87,7 +87,7 @@ Förbättringsförslag: Använda bilder i rätt storlek och rätt format.
 
 Förbättringsförslag: Undvika renderings-blockerande resurser och förbättra serverns responstid.
 
-![Lofsdalen](%base_url%/image/lofs.jpeg){.colorclass}
+<img src="%base_url%/image/lofs.jpeg?w=800" srcset="%base_url%/image/lofs.jpeg?w=800, %base_url%/image/lofs.jpeg?w=1600 2x" alt="Lofsdalen" class="colorclass">
 
 ### Lofsdalen
 
