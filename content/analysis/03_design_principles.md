@@ -11,7 +11,7 @@ Uppgiften handlar om att utvärdera några personsidor för att se vilka designp
 
 ## Urval
 
-För den här rapporten valdes tre webbplatser inom gruppen personsidor. Webbplatserna som valdes var: Underbara Clara (underbaraclaras.se), Mijo Crochet (mijocrochet.se) och Khadijas kitchen (khadijaskitchen.se). Som avslutning har min egen portfolio-sida analyserats.
+För den här rapporten valdes tre webbplatser inom gruppen personsidor. Här valde jag ut några bloggare som jag kände till och som hade riktiga webbplatser. Webbplatserna som valdes var: Underbara Clara (underbaraclaras.se), Mijo Crochet (mijocrochet.se) och Khadijas kitchen (khadijaskitchen.se). Som avslutning har min egen portfolio-sida analyserats.
 
 ## Metod
 
