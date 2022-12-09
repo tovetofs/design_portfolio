@@ -38,17 +38,23 @@
     transform: rotate(2deg);
     grid-column: 1 / 2;
     position: relative;
+    box-shadow: 8px 8px 5px 0 rgba(0, 0, 0, 0.14);
+
 }
 
 .kmom05 {
     grid-column: 2 / 3;
     position: relative;
+    box-shadow: 8px 8px 5px 0 rgba(0, 0, 0, 0.14);
+
 }
 
 .kmom06 {
     transform: rotate(-5deg);
     grid-column: 3 / 4;
     position: relative;
+    box-shadow: 8px 8px 5px 0 rgba(0, 0, 0, 0.14);
+
 }
 
 .linkspanner04 {
@@ -102,6 +108,7 @@
     border-radius: 155px 15px 155px 15px/15px 155px 15px 155px;
     margin: 2rem 2rem auto;
     padding: 0 2rem;
+    box-shadow: 8px 8px 5px 0 rgba(0, 0, 0, 0.14);
 }
 
 .colors {
@@ -205,15 +212,14 @@
     }
 
     td {
-        border: 10px solid #fff;
+        border: 10px solid $main-background;
     }
 }
 
 .colorclass {
     padding-top: 2em;
+    max-width: 100%;
 }
-
-
 
 .framesheet {
     position: relative;

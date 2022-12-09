@@ -9,7 +9,7 @@ Teknologier
 ==========================
 
 <div class="tech-box html" markdown="1">
-<h3 markdown="1">[HTML](technology/html)</h3>
+<h2 markdown="1">[HTML](technology/html)</h2>
 
 <!-- ![html](image/sunflower.jpeg){.boxbild} -->
 
@@ -20,7 +20,7 @@ Teknologier
 </div>
 
 <div class="tech-box css" markdown="1">
-<h3 markdown="1">[CSS](technology/css)</h3>
+<h2 markdown="1">[CSS](technology/css)</h2>
 
 <!-- ![css](image/dahlia.jpeg){.boxbild} -->
 
@@ -31,7 +31,7 @@ Cascading Style Sheets är språk för att beskriva utseende av element i ett...
 </div>
 
 <div class="tech-box php" markdown="1">
-<h3 markdown="1">[PHP](technology/php)</h3>
+<h2 markdown="1">[PHP](technology/php)</h2>
 <!-- 
 ![css](image/rose.jpeg){.boxbild} -->
 
@@ -43,7 +43,7 @@ Cascading Style Sheets är språk för att beskriva utseende av element i ett...
 </div>
 
 <div class="tech-box java" markdown="1">
-<h3 markdown="1">[JavaScript](technology/javascript)</h3>
+<h2 markdown="1">[JavaScript](technology/javascript)</h2>
 
 <!-- ![javascript](image/tulips.jpeg){.boxbild} -->
 
@@ -54,7 +54,7 @@ Cascading Style Sheets är språk för att beskriva utseende av element i ett...
 </div>
 
 <div class="tech-box git" markdown="1">
-<h3 markdown="1">[Git](technology/git)</h3>
+<h2 markdown="1">[Git](technology/git)</h2>
 
 <!-- ![git](image/lotus.jpeg){.boxbild} -->
 
@@ -66,7 +66,7 @@ Cascading Style Sheets är språk för att beskriva utseende av element i ett...
 </div>
 
 <div class="tech-box sql" markdown="1">
-<h3 markdown="1">[SQLite](technology/sqlite)</h3>
+<h2 markdown="1">[SQLite](technology/sqlite)</h2>
 
 
 <!-- ![SQLite](image/pasklilja.jpeg){.boxbild} -->
@@ -78,7 +78,7 @@ Cascading Style Sheets är språk för att beskriva utseende av element i ett...
 </div>
 
 <div class="tech-box python" markdown="1">
-<h3 markdown="1">[Python](technology/python)</h3>
+<h2 markdown="1">[Python](technology/python)</h2>
 <!-- 
 Python är ett programmeringsspråk som lanserades 1991 av Guido van Rossum. Programmeringsspråket är dynamiskt typad och betecknas... -->
 

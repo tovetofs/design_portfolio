@@ -2,9 +2,7 @@
     <div class="site-header">
         {% if pages["_meta"].meta.logo %}
         <div class="logo">
-            <a href="{{ base_url }}">
                 <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
-            </a>
         </div>
         {% endif %}
         <div class="title" {{ pages["_meta"].meta.tagline ? ' class="tagline"' }}>
@@ -13,8 +11,9 @@
                 {{ pages["_meta"].meta.tagline|markdown }}
             </a>
         </div>
-        <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false"
-            tabindex="1">
+        {# <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false"
+            tabindex="1"> Enligt lighthouse, ska man inte ha tabindex > 0, verkar funka utan #}
+        <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false">
             <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
             <span class="sr-only">Toggle Menu</span>
         </a>

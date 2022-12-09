@@ -2,6 +2,7 @@
 Title: About
 Description: Om kursen
 icon: fa fa-pen
+Template: index2
 ---
 
 Om sidan
