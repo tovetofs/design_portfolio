@@ -65,6 +65,11 @@ body {
     border-radius: 155px 15px 155px 15px/15px 155px 15px 155px;
     padding: 2rem;
     box-shadow: 8px 8px 5px 0 rgba(0, 0, 0, 0.14);
+
+    a {
+        color: $accent-alternative-color;
+        font-weight: bold;
+    }
 }
 
 .header,
@@ -88,6 +93,10 @@ dd {
 }
 
 .main p {
+    padding-bottom: 1rem;
+}
+
+.main2 p {
     padding-bottom: 1rem;
 }
 

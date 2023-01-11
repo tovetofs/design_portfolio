@@ -44,3 +44,26 @@ Utvärdering av hur designprinciper implementerats på några personsidor.
 </span>
 </a>
 </div>
+
+
+<div class="analysis kmom10" markdown="1">
+<a href="analysis/10_webbplatsdesign">
+<span class="linkspanner06">
+# Projektet krav 5
+
+Undersökning av aktuella trender inom webbplatsdesign.
+
+</span>
+</a>
+</div>
+
+<div class="analysis kmom11" markdown="1">
+<a href="analysis/11_design-och-webbplatser">
+<span class="linkspanner06">
+# Projektet krav 6
+
+Undersökning av min projekt-webbplats med avseende på laddningstider.
+
+</span>
+</a>
+</div>
