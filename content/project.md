@@ -5,7 +5,7 @@ icon: fa fa-pen
 Template: index2
 ---
 
-Om sidan
+Om projektet
 ==========================
 
 ## Uppdrag 1 - Webbplats
