@@ -54,6 +54,7 @@ Här är färgtemat huvudsakligen monokromatiskt med olika nyanser av blått. So
 ### Lofsdalen
 
 <table class="colors">
+        <tr>
             <td class="cellb1"></td>
             <td class="cellb2"></td>
             <td class="cellb3"></td>

@@ -3,7 +3,7 @@ Title: Docs
 Description: Documentation that came with Pico.
 icon: fa fa-folder-open
 Template: index2
-# hidden: true
+hidden: true
 ---
 
 Welcome to Pico
